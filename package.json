@@ -1,0 +1,34 @@
+{
+  "name": "ws-bots-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist",
+    "dev": "nodemon --exec npx babel-node src/index.js"
+  },
+  "keywords": [],
+  "author": "Ángel Zamora",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.10",
+    "@babel/node": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@flydotio/dockerfile": "^0.4.3",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^7.4.2",
+    "qrcode": "^1.5.3",
+    "socket.io": "^4.7.2",
+    "whatsapp-web.js": "^1.21.0",
+    "wwebjs-mongo": "^1.1.0"
+  }
+}
